@@ -1,95 +1,5 @@
-/* Modern CSS Reset */
-
-/* Remove default margins and paddings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Set consistent body defaults */
-  html, body {
-    height: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.5;
-    font-size: 100%;
-    color: #333;
-    background-color: #fff;
-  }
-  
-  /* Remove list styles */
-  ul, ol {
-    list-style: none;
-  }
-  
-  /* Remove link underlines and enforce color inheritance */
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  /* Normalize images and media elements */
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Remove default form element styles */
-  button, input, textarea, select {
-    font: inherit;
-    color: inherit;
-    border: none;
-    background: none;
-    outline: none;
-  }
-  
-  /* Ensure clickable elements use pointer cursor */
-  button, [type="button"], [type="submit"], [role="button"] {
-    cursor: pointer;
-  }
-  
-  /* Reset table styles */
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-  }
-  
-  /* Set base styles for textarea */
-  textarea {
-    resize: vertical;
-  }
-  
-  /* Remove built-in focus outlines and add accessible focus style */
-  :focus {
-    outline: 2px solid #005fcc; /* Accessible focus color */
-    outline-offset: 2px;
-  }
-  
-  /* Set a consistent scrolling behavior */
-  html {
-    scroll-behavior: smooth;
-  }
-
-/* START HERE */
-
-// Variables for theme colors
-
-$primary: #326dee;
-$secondary: #1ac888;
-$error: #d32752;
-$info: #f6c31c;
-
-// Variables for spacing
-
-$base-padding: 0.75rem;
-$base-margin: 0.75rem;
-
-// Variables for borders
-
-$base-border-thickness: 1px;
-$base-border-radius: 20px;
+@import 'reset';
+@import 'variables';
 
 // General Styling
 
@@ -128,4 +38,4 @@ button {
   padding: $base-padding;
   border-radius: $base-border-radius;
   border-width: $base-border-thickness;
-},
+}
