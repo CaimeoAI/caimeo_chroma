@@ -9,7 +9,7 @@
 /* Set consistent body defaults */
 html, body {
   height: 100%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
   font-size: 100%;
   color: #333;
@@ -72,3 +72,28 @@ html {
 }
 
 /* START HERE */
+h1 {
+  color: #326dee;
+}
+
+a {
+  color: #1ac888;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: #326dee;
+}
+
+.error {
+  color: #d32752;
+  border-color: #d32752;
+  border-style: solid;
+}
+
+.notification {
+  color: #1ac888;
+  border-color: #1ac888;
+  border-style: solid;
+}/*# sourceMappingURL=index.css.map */
