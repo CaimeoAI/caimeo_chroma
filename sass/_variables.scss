@@ -5,7 +5,7 @@ $secondary: #1ac888;
 $error: #d32752;
 $info: #f6c31c;
 
-//? Color Palette
+//? Color Palette (This is a 'Map'. It's like an Object in Javascript. Use 'map-get($colors, "example") to use it anywhere else)
 $colors: (
     "primary": $primary,
     "secondary": $secondary,
