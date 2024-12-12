@@ -20,6 +20,20 @@
             color: mix(white, $val, $i * 10)
         }
     }
+
+    //? Dark Color Variations
+
+    @for $i from 1 through 9 {
+        .#{$key}-dark-#{$i}{
+            color: mix(black, $val, $i * 10)
+        }
+        .text-#{$key}-dark-#{$i} {
+            color: mix(black, $val, $i * 10)
+        }
+        .bg-#{$key}-dark-#{$i} {
+            color: mix(black, $val, $i * 10)
+        }
+    }
 }
 
 
