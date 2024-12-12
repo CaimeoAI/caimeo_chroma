@@ -10,6 +10,9 @@
     //? Light Color Variations
 
     @for $i from 1 through 9 {
+        .#{$key}-light-#{$i}{
+            color: mix(white, $val, $i * 10)
+        }
         .text-#{$key}-light-#{$i} {
             color: mix(white, $val, $i * 10)
         }
