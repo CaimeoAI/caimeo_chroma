@@ -20,6 +20,14 @@
             background-color: lighten($val, 5);
         }
     }
+    .btn-complement-#{$key} {
+        @include btn(#fff);
+        color: light-comp($val);
+        &:hover {
+            color: $val;
+            background-color: light-comp($val);
+        }
+    }
     .btn-outlined-#{$key} {
         @include btn(#fff);
         border: $base-border-thickness solid $val;   
