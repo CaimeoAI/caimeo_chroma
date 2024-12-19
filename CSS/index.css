@@ -3437,11 +3437,19 @@ html {
   background-color: #4a7ef0;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-primary {
-    color: #326dee;
-  }
+.btn-complement-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #326dee;
+  color: #fae7bf;
+}
+.btn-complement-primary:hover {
+  color: #326dee;
+  background-color: #fae7bf;
 }
 
 .btn-outlined-primary {
@@ -3471,11 +3479,19 @@ html {
   background-color: #1ddf97;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-secondary {
-    color: #1ac888;
-  }
+.btn-complement-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1ac888;
+  color: #f08bb0;
+}
+.btn-complement-secondary:hover {
+  color: #1ac888;
+  background-color: #f08bb0;
 }
 
 .btn-outlined-secondary {
@@ -3505,11 +3521,19 @@ html {
   background-color: #da3961;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-error {
-    color: #d32752;
-  }
+.btn-complement-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #d32752;
+  color: #a5eedc;
+}
+.btn-complement-error:hover {
+  color: #d32752;
+  background-color: #a5eedc;
 }
 
 .btn-outlined-error {
@@ -3539,11 +3563,19 @@ html {
   background-color: #f7c935;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-info {
-    color: #f6c31c;
-  }
+.btn-complement-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #f6c31c;
+  color: #afc1fc;
+}
+.btn-complement-info:hover {
+  color: #f6c31c;
+  background-color: #afc1fc;
 }
 
 .btn-outlined-info {
@@ -3573,11 +3605,19 @@ html {
   background-color: #3030e9;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-blue {
-    color: #1919e6;
-  }
+.btn-complement-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1919e6;
+  color: #f5f5a3;
+}
+.btn-complement-blue:hover {
+  color: #1919e6;
+  background-color: #f5f5a3;
 }
 
 .btn-outlined-blue {
@@ -3607,11 +3647,19 @@ html {
   background-color: #e93030;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-red {
-    color: #e61919;
-  }
+.btn-complement-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e61919;
+  color: #a3f5f5;
+}
+.btn-complement-red:hover {
+  color: #e61919;
+  background-color: #a3f5f5;
 }
 
 .btn-outlined-red {
@@ -3641,11 +3689,19 @@ html {
   background-color: #e9e930;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-yellow {
-    color: #e6e619;
-  }
+.btn-complement-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e6e619;
+  color: #a3a3f5;
+}
+.btn-complement-yellow:hover {
+  color: #e6e619;
+  background-color: #a3a3f5;
 }
 
 .btn-outlined-yellow {
@@ -3675,11 +3731,19 @@ html {
   background-color: #30e949;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-green {
-    color: #19e635;
-  }
+.btn-complement-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #19e635;
+  color: #f5a3ea;
+}
+.btn-complement-green:hover {
+  color: #19e635;
+  background-color: #f5a3ea;
 }
 
 .btn-outlined-green {
@@ -3709,11 +3773,19 @@ html {
   background-color: #ffaf1a;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-orange {
-    color: #ffa600;
-  }
+.btn-complement-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #ffa600;
+  color: #99bdff;
+}
+.btn-complement-orange:hover {
+  color: #ffa600;
+  background-color: #99bdff;
 }
 
 .btn-outlined-orange {
@@ -3743,11 +3815,19 @@ html {
   background-color: #a31aff;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-purple {
-    color: #9900ff;
-  }
+.btn-complement-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #9900ff;
+  color: #c2ff99;
+}
+.btn-complement-purple:hover {
+  color: #9900ff;
+  background-color: #c2ff99;
 }
 
 .btn-outlined-purple {
@@ -3777,11 +3857,19 @@ html {
   background-color: #8d8d8d;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-gray {
-    color: #808080;
-  }
+.btn-complement-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #808080;
+  color: #cdcdcd;
+}
+.btn-complement-gray:hover {
+  color: #808080;
+  background-color: #cdcdcd;
 }
 
 .btn-outlined-gray {
@@ -3811,11 +3899,19 @@ html {
   background-color: #0d0d0d;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-black {
-    color: black;
-  }
+.btn-complement-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: black;
+  color: #4d4d4d;
+}
+.btn-complement-black:hover {
+  color: black;
+  background-color: #4d4d4d;
 }
 
 .btn-outlined-black {
@@ -3845,11 +3941,19 @@ html {
   background-color: white;
 }
 
-@inclu color:
-        &:hover {
-  .btn-complement-white {
-    color: white;
-  }
+.btn-complement-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  color: white;
+}
+.btn-complement-white:hover {
+  color: white;
+  background-color: white;
 }
 
 .btn-outlined-white {

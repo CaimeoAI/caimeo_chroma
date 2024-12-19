@@ -21,7 +21,7 @@
         }
     }
     .btn-complement-#{$key} {
-        @include btn(#fff);
+        @include btn($val);
         color: light-comp($val);
         &:hover {
             color: $val;
