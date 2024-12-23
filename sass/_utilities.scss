@@ -145,10 +145,20 @@ $utilities: (
             "xs": math.div($base-border-radius, 4),
             "sm": math.div($base-border-radius, 2),
             "lg": $base-border-radius * 2,
-            "full": 50%,
-        )
-    )
+            "full": 50%
+        ),
+    ),
 
+    "display": (
+        "prefix": "display",
+        "values": (
+            "n": none,
+            "b": block,
+            "f": flex,
+            "i": inline,
+            "i": inline-block
+        ),
+    ),
 );
 
 //? Generating Utility Classes

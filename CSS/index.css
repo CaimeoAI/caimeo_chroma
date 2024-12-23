@@ -4309,4 +4309,20 @@ button {
 
 .br-full {
   border-radius: 50%;
+}
+
+.display-n {
+  display: none;
+}
+
+.display-b {
+  display: block;
+}
+
+.display-f {
+  display: flex;
+}
+
+.display-i {
+  display: inline;
 }/*# sourceMappingURL=index.css.map */
