@@ -4325,4 +4325,28 @@ button {
 
 .display-i {
   display: inline;
+}
+
+.display-ib {
+  display: inline-block;
+}
+
+.font-sm {
+  font-size: 0.75rem;
+}
+
+.font-md {
+  font-size: 1rem;
+}
+
+.font-lg {
+  font-size: 1.5rem;
+}
+
+.font-xl {
+  font-size: 2rem;
+}
+
+.font-xxl {
+  font-size: 3rem;
 }/*# sourceMappingURL=index.css.map */
