@@ -172,7 +172,7 @@ $utilities: (
     ),
 );
 
-//? Generating Utility Classes
+//? Generating Utility Classes (loops through the arrays above to generate corresponding classes)
 @each $property, $map in $utilities {
     $prefix: map-get($map, "prefix");
     $values: map-get($map, "values" );
