@@ -6,6 +6,9 @@
 @import 'reset';
 @import 'base';
 
+//? Media Queries
+@import 'breakpoints';
+
 //? Colors
 @import 'colors';
 
@@ -15,3 +18,4 @@
 
 //? Utilities
 @import 'utilities';
+
