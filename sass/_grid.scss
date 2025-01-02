@@ -2,6 +2,15 @@
 
 $grid-columns: 12;
 
+$grid-gaps: (
+    "0": 0,
+    "1": 10px,
+    "2": 20px,
+    "3": 30px,
+    "4": 40px,
+    "5": 50px
+);
+
 //? Base Layout Classes
 .container {
     width: 100%;
@@ -15,6 +24,18 @@ $grid-columns: 12;
     display: flex;
     flex-flow: row wrap;
 
+}
+
+//? Generating Grid Gap Classes
+@each $key, $val in $grid-gaps {
+    .gap-#{$key} > * {
+        padding: $val;
+    }
+
+    .gap-#{key} {
+        margin-left: -$val;
+        margin-right: -$val;
+    }
 }
 
 //? Generating Column Classes for different breakpoints
