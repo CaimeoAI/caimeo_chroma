@@ -4404,7 +4404,7 @@ button {
   background-color: white;
 }
 
-.flex-layout, .navbar {
+.flex-layout, .navbar .container, .navbar {
   width: 100%;
   display: flex;
   align-items: center;
@@ -4419,7 +4419,6 @@ button {
 .navbar .site-title {
   font-size: 1.5rem;
 }
-
 .p-0 {
   padding: 0;
 }
